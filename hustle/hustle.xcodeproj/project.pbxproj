@@ -12,6 +12,7 @@
 		90590D8020781C3100112EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90590D7E20781C3100112EDA /* Main.storyboard */; };
 		90590D8220781C3400112EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90590D8120781C3400112EDA /* Assets.xcassets */; };
 		90590D8520781C3400112EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90590D8320781C3400112EDA /* LaunchScreen.storyboard */; };
+		90590D8D20781F6900112EDA /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90590D8C20781F6900112EDA /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90590D8120781C3400112EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90590D8420781C3400112EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90590D8620781C3400112EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90590D8C20781F6900112EDA /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "../../../../../Downloads/hustle-mode-code-assets/assets/Assets/hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		90590D7920781C3100112EDA /* hustle */ = {
 			isa = PBXGroup;
 			children = (
+				90590D8C20781F6900112EDA /* hustle-on.wav */,
 				90590D7A20781C3100112EDA /* AppDelegate.swift */,
 				90590D7C20781C3100112EDA /* ViewController.swift */,
 				90590D7E20781C3100112EDA /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90590D8D20781F6900112EDA /* hustle-on.wav in Resources */,
 				90590D8520781C3400112EDA /* LaunchScreen.storyboard in Resources */,
 				90590D8220781C3400112EDA /* Assets.xcassets in Resources */,
 				90590D8020781C3100112EDA /* Main.storyboard in Resources */,
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TCB4W59FL;
 				INFOPLIST_FILE = hustle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TCB4W59FL;
 				INFOPLIST_FILE = hustle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
